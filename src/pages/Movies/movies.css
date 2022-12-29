@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.overview {
+  font-family: "Poppins", sans-serif;
+}
+
+.movie-details {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.movie-img {
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.overview {
+  color: #dc143c;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.description {
+  color: #fff;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rating {
+  color: #ffff00;
+  margin-top: 10px;
+}
+
+.btn-area button {
+  border: none;
+  margin: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.btn-area button:active {
+  background-color: #fff;
+  box-shadow: 0 5px rgb(41, 39, 39);
+  transform: translateY(4px);
+}
+
+.btn-save {
+  background-color: rgb(0, 255, 0);
+  color: #000;
+  cursor: pointer;
+}
+
+.btn-trailer {
+  background-color: #dc143c;
+}
+
+.btn-trailer a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (min-width: 750px) {
+  .overview {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .btn-area button {
+    font-size: 20px;
+    margin: 25px;
+    padding: 15px 10px;
+  }
+  .rating {
+    font-size: 20px;
+  }
+  img {
+    width: 700px;
+  }
+}
+
+@media (min-width: 900px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .overview {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .btn-area button {
+    font-size: 28px;
+    margin: 35px;
+    padding: 15px 10px;
+  }
+  .rating {
+    font-size: 30px;
+  }
+  img {
+    width: 900px;
+  }
+}
+
+@media (max-width: 550px) {
+  .title {
+    font-size: 20px;
+  }
+  img {
+    width: 350px;
+  }
+  .description {
+    font-size: 15px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 300px) {
+  img {
+    width: 240px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .overview {
+    font-size: 17px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .rating {
+    font-size: 13px;
+  }
+  .btn-area button {
+    font-size: 12px;
+    margin: 25px;
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  img {
+    width: 650px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .overview {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .rating {
+    font-size: 15px;
+  }
+  .btn-area button {
+    font-size: 17px;
+    margin: 25px;
+    padding: 10px 10px;
+  }
+}

@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #141414;
+  height: 100px;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  margin: 0 24px;
+}
+
+.logo {
+  font-size: 25px;
+  color: #fff;
+}
+
+.logo span {
+  color: #dc143c;
+}
+
+.favorites {
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.favorites:hover {
+  color: #dc143c;
+}
+
+#horizontal-line {
+  width: 100%;
+  border: 1px solid #dc143c;
+  border-radius: 5px;
+}

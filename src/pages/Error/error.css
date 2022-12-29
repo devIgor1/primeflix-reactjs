@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.bg {
+  background-image: url("https://w.wallhaven.cc/full/r2/wallhaven-r2o657.jpg");
+}
+
+section {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P";
+  color: #ffffff;
+  text-align: center;
+}
+
+section.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5%;
+  height: 100vh;
+}
+
+section.notFound h1 {
+  color: red;
+  font-size: 100px;
+  font-family: "Press Start 2P";
+}
+
+section.notFound h2 {
+  font-size: 50px;
+  font-family: "Press Start 2P";
+}
+
+section.notFound h1,
+h2,
+h3 {
+  margin-bottom: 40px;
+  font-family: "Press Start 2P";
+}
+
+div.text {
+  height: 40vh;
+}
+
+div.text a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Press Start 2P";
+  color: #fff;
+}
+
+div.text a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  section.notFound {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  section.notFound div.img-bg img {
+    width: 70vw;
+    height: auto;
+  }
+  section.notFound h1 {
+    font-size: 50px;
+  }
+  section.notFound h2 {
+    font-size: 25px;
+  }
+  div.text a:active {
+    color: red;
+    text-decoration: underline;
+  }
+}

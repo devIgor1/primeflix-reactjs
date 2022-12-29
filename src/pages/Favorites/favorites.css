@@ -1,0 +1,104 @@
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #dc143c;
+  margin-top: 0px;
+}
+
+.movie-detail img {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.movies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.movie-detail li {
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+span {
+  color: #fff;
+  font-size: 25px;
+}
+
+.buttons,
+.buttons button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 2px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.btn-details {
+  text-decoration: none;
+  color: #fff;
+  background-color: #dc143c;
+  padding: 5px 5px;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.btn-details:hover {
+  color: #000;
+}
+
+.btn-delete {
+  background-color: #008000;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btn-delete:hover {
+  color: #000;
+}
+
+.sad-msg {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.message {
+  font-family: "Poppins", sans-serif;
+}
+
+.gif {
+  max-width: 500px;
+}
+
+.sad-msg a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 50px;
+  background-color: #dc143c;
+  padding: 5px 5px;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.sad-msg a:hover {
+  background-color: #fff;
+  color: #000;
+}
